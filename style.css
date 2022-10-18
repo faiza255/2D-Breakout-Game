@@ -1,0 +1,36 @@
+body{
+  background-color: #F6F7EB;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid 1px black;
+    margin-top: 100px;
+  }
+  
+  .user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #48A9A6;
+  }
+  
+  .block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #003844;
+  }
+  
+  .ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+  }
